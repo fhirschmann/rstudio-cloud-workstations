@@ -5,8 +5,8 @@
 This repository contains artifacts to deploy the [free version of RStudio Server](https://posit.co/download/rstudio-server/) to [Google Cloud Workstations](https://cloud.google.com/workstations).
 
 Authors:
-- Fabian Hirschmann <fhirschmann@google.com>
-- Justin Marciszewski <justinjm@google.com>
+- Fabian Hirschmann (<fhirschmann@google.com>)
+- Justin Marciszewski (<justinjm@google.com>)
 
 ## Deploy RStudio to Cloud Workstations
 
@@ -54,4 +54,4 @@ Create a Cloud Workstation Configuration utilizing the container image created a
 gcloud alpha workstations configs create rstudio --cluster=$CLUSTER_NAME --region=$REGION --container-custom-image=$IMAGE_URI
 ```
 
-That's it! You can now start RStudio from the Google Cloud Console.
+That's it! You can now start RStudio from the [Cloud Workstations Console](https://console.cloud.google.com/workstations).
