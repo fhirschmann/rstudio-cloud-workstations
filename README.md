@@ -1,6 +1,6 @@
 # RStudio on Google Cloud Workstations
 
-![](screenshot.png)
+![](screenshots/rstudio.png)
 
 This repository contains artifacts to deploy the [free version of RStudio Server](https://posit.co/download/rstudio-server/) to [Google Cloud Workstations](https://cloud.google.com/workstations).
 
