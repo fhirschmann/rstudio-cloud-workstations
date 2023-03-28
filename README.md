@@ -8,6 +8,11 @@ Authors:
 - Fabian Hirschmann (<fhirschmann@google.com>)
 - Justin Marciszewski (<justinjm@google.com>)
 
+## Deploy using Google Cloud Shell
+
+[![Open this project in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/fhirschmann/rstudio-cloud-workstations&page=editor&tutorial=README.md)
+
+
 ## Deploy RStudio to Cloud Workstations
 
 Define variables:
