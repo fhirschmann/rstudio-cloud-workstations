@@ -5,8 +5,8 @@
 This repository contains artifacts to deploy the [free version of RStudio Server](https://posit.co/download/rstudio-server/) to [Google Cloud Workstations](https://cloud.google.com/workstations).
 
 Authors:
-- Fabian Hirschmann (<fhirschmann@google.com>)
-- Justin Marciszewski (<justinjm@google.com>)
+- Fabian Hirschmann (fhirschmann@google.com)
+- Justin Marciszewski (justinjm@google.com)
 
 ## Deploy using Google Cloud Shell
 
@@ -22,7 +22,7 @@ PROJECT_ID=$(gcloud config get-value project)
 REGION="us-central1"
 REPO_NAME="rstudio-cloud-workstations"
 IMAGE_NAME="rstudio-cloud-workstations"
-IMAGE_URI="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/${IMAGE_NAME}:latest
+IMAGE_URI="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/${IMAGE_NAME}:latest"
 
 CLUSTER_NAME="ws-cluster1"
 ```
